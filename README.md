@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here!](https://www.frontendmentor.io/solutions/responsive-fourcard-feature-section-using-grid-x7dEOYyqJ)
+- Live Site URL: [Click here!](https://wizardly-hypatia-4a2ef2.netlify.app/)
 
 ## My process
 
