@@ -22,6 +22,7 @@
 
 .container {
   width: 85%;
+  max-width: 520px;
   margin: 0 auto;
 }
 
@@ -140,4 +141,32 @@ h2 {
 .builder:hover,
 .builder:focus {
   color: var(--color-blue);
+}
+
+@media screen and (min-width: 900px) {
+  .card--cyan {
+    grid-area: cyan;
+  }
+
+  .card--red {
+    grid-area: red;
+  }
+
+  .card--orange {
+    grid-area: orange;
+  }
+
+  .card--blue {
+    grid-area: blue;
+  }
+
+  .feature-card {
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-areas:
+      ". red ."
+      "cyan red blue"
+      "cyan orange blue"
+      ". orange .";
+  }
 }
