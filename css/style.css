@@ -1,0 +1,74 @@
+:root {
+  --color-primary: #4c4e61;
+  --color-secondary: #a3a5ae;
+  --color-red: #ea5353;
+  --color-cyan: #45d3d3;
+  --color-orange: #fcaf4a;
+  --color-blue: #549ef2;
+  --color-background: #fafafa;
+
+  --fs-xl: 3rem;
+  --fs-600: 2.4rem;
+  --fs-500: 2rem;
+  --fs-400: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: var(--fs-400);
+  color: var(--color-secondary);
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+
+h2 {
+  font-size: var(--fs-600);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.challenge {
+  color: var(--color-red);
+}
+
+.challenge:hover,
+.challenge:focus {
+  color: var(--color-cyan);
+}
+
+.builder {
+  color: var(--color-orange);
+}
+
+.builder:hover,
+.builder:focus {
+  color: var(--color-blue);
+}
