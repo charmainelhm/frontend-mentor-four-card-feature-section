@@ -45,6 +45,27 @@ h2 {
   font-size: var(--fs-600);
 }
 
+/* Feature Card */
+.card {
+  padding: 2em;
+  border-top: 5px solid var(--color-cyan);
+  border-radius: 6px;
+  box-shadow: 0 15px 20px 3px var(--color-secondary);
+}
+
+.card__title {
+  margin-bottom: 0.5em;
+}
+
+.card__text {
+  line-height: 1.6;
+}
+
+.card__img {
+  margin-top: 1.8em;
+  text-align: end;
+}
+
 /* Attribution */
 .attribution {
   font-size: 11px;
